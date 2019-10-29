@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
     LONG_DESCRIPTION = fh.read()
     setuptools.setup(
     name="ds_helper",
-    version = "0.1.6",
+    version = "0.1.7",
     author = "Jim King",
     description = "a collection of data science helper functions",
     long_description = LONG_DESCRIPTION,

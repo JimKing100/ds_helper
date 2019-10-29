@@ -18,7 +18,10 @@ def nulls(df):
 
 def date_conv(df, col):
   df[col] = pandas.to_datetime(df[col], infer_datetime_format=True)
-  df['year'] = df[col].dt.year
-  df['month'] = df[col].dt.month
-  df['day'] = df[col].dt.day
+  col_year = col + '_year'
+  col_month = col + '_month'
+  col_day = col + '_day'
+  df[col_year] = df[col].dt.year
+  df[col_month] = df[col].dt.month
+  df[col_day] = df[col].dt.day
   return df
