@@ -3,7 +3,7 @@ utility functions for working with DataFrames
 """
 
 import pandas
-import datetime
+from datetime import datetime
 
 TEST_DF = pandas.DataFrame([1,2,3])
 
