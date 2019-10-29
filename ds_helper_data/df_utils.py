@@ -2,7 +2,7 @@
 utility functions for working with DataFrames
 """
 
-import pandas
+import pandas as pd
 from datetime import datetime
 
 TEST_DF = pandas.DataFrame([1,2,3])
