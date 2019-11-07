@@ -5,7 +5,7 @@ A collection of data science helper functions.
 
 ds_helper - contains the complete implementation of the package.
 
-ds_helper_data - contains the __init__.py file and the df_utils.py file
+ds_helper_data - contains the init.py file and the df_utils.py file
 
 df_utils.py - contains the python code for the helper functions.
 
